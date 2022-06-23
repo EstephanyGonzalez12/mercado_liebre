@@ -232,6 +232,11 @@ article i {
     width: 40%;
     
   }
+
+  footer{
+    display: flex;
+    margin-top: 80px;
+  }
 } 
 
 @media(min-width: 769px){
