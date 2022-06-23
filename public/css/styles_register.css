@@ -1,0 +1,89 @@
+.registro{
+    padding: 30px;
+    text-align: center;
+    width: 40%;
+    background-color: white;
+    border: solid 2px rgb(233, 229, 229);
+    border-radius: 10px;
+    margin: auto;
+    margin-top:20px;
+}
+
+.registro .inp{
+    height: 30px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: solid 1px gray;
+    width: 90%;
+}
+.fecha{
+    margin-bottom: 15px;
+}
+
+.foto{
+    border:0cm;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+.intereses{
+display:flex;
+padding-bottom: 25px;
+text-align: center;
+justify-content: center;
+margin-top: 15px;
+
+}
+
+.interes{
+    margin-top: 20px;
+}
+
+.perfil_usuario{
+    margin-top: 20px;
+}
+
+.enviar_login{
+    margin-right: 10px;
+    width: 90%;
+    background-color: rgb(71, 125, 243);
+    color: white;
+    border: 0cm;
+    border-radius: 5px;
+    padding: 8px;
+}
+.enviar{
+    margin-right: 10px;
+    width: 20%;
+    background-color: rgb(71, 125, 243);
+    color: white;
+    border: 0cm;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.borrar{
+    margin-right: 10px;
+    width: 20%;
+    background-color: rgb(71, 125, 243);
+    color: white;
+    border: 0cm;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+@media (max-width: 481px){
+    .registro{
+        width: 100%;
+        background-color: rgb(214, 211, 211);
+        border: none;
+    }
+    .enviar{
+        width: 50px;
+    }
+    .borrar{
+        
+            width: 50px;
+        }
+    
+}

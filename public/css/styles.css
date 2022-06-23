@@ -163,10 +163,12 @@ article i {
   input{
     max-width: 50%;
     height: 8vw;
-    box-sizing: border-box
+    box-sizing: border-box;
+    
   }
   button{
     height: 8vw;
+   
   }
 }
 
