@@ -52,6 +52,8 @@ margin-top: 15px;
     border: 0cm;
     border-radius: 5px;
     padding: 8px;
+    transition-property: color;
+
 }
 .enviar{
     margin-right: 10px;
@@ -87,4 +89,8 @@ margin-top: 15px;
             width: 50px;
         }
     
+}
+
+.enviar_login:hover{
+    background-color:#0022AA
 }
